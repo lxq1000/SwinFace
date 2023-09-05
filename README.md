@@ -8,6 +8,7 @@ Our design, the SwinFace, consists of a single shared backbone together with a s
 To address the conflicts among multiple tasks and meet the different demands of tasks, a Multi-Level Channel Attention (MLCA) module is integrated into each task-specific analysis subnet, which can adaptively select the features from optimal levels and channels to perform the desired tasks. 
 Extensive experiments show that the proposed model has a better understanding of the face and achieves excellent performance for all tasks.
 Especially, it achieves 90.97\% accuracy on RAF-DB and 0.22 $\epsilon$-error on CLAP2015, which are state-of-the-art results on facial expression recognition and age estimation respectively.
+
 <img src="https://github.com/lxq1000/SwinFace/blob/main/pictures/SwinFace.png" alt="Image" width="500">
 
 ## Evaluate
