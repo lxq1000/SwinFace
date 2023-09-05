@@ -9,7 +9,22 @@ To address the conflicts among multiple tasks and meet the different demands of 
 Extensive experiments show that the proposed model has a better understanding of the face and achieves excellent performance for all tasks.
 Especially, it achieves 90.97\% accuracy on RAF-DB and 0.22 $\epsilon$-error on CLAP2015, which are state-of-the-art results on facial expression recognition and age estimation respectively.
 
-## Train and Inference.
+## Evaluate
+Here are some test results. For detailed experimental information, please refer to our paper.
+
+- Face Recognition
+
+- Facial Expression Recognition
+
+- Age Estimation
+
+- Faical Attribute Estimation  
+![image]()
+
+
+
+
+## Train and Inference
 
 The "train.sh" file provides the necessary commands for training the model.
 
