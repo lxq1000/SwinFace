@@ -34,6 +34,10 @@ The `train.sh` file provides the necessary commands for training the model.
 
 The `inference.py` file provides an example of using SwinFace for inference.
 
+The trained model file can be downloaded from the following link：
+
+  Google Drive：https://drive.google.com/drive/folders/1NjVN3Kp_Tmwt17hWCIWgHpuWzkHYaman?usp=sharing
+
 
 
 
