@@ -8,28 +8,32 @@ Our design, the SwinFace, consists of a single shared backbone together with a s
 To address the conflicts among multiple tasks and meet the different demands of tasks, a Multi-Level Channel Attention (MLCA) module is integrated into each task-specific analysis subnet, which can adaptively select the features from optimal levels and channels to perform the desired tasks. 
 Extensive experiments show that the proposed model has a better understanding of the face and achieves excellent performance for all tasks.
 Especially, it achieves 90.97\% accuracy on RAF-DB and 0.22 $\epsilon$-error on CLAP2015, which are state-of-the-art results on facial expression recognition and age estimation respectively.
-![image](https://github.com/lxq1000/SwinFace/blob/main/pictures/SwinFace.png)
+<img src="https://github.com/lxq1000/SwinFace/blob/main/pictures/SwinFace.png" alt="Image" width="500">
 
 ## Evaluate
 Here are some test results. For detailed experimental information, please refer to our paper.
 
 - Face Recognition
- ![image](https://github.com/lxq1000/SwinFace/blob/main/pictures/face%20recognition.png)
-- Facial Expression Recognition
-![image](https://github.com/lxq1000/SwinFace/blob/main/pictures/facial%20expression%20recognition.png)
-- Age Estimation
-![image](https://github.com/lxq1000/SwinFace/blob/main/pictures/age%20estimation.png)
-- Facial Attribute Estimation  
-![image](https://github.com/lxq1000/SwinFace/blob/main/pictures/facial%20attribute%20estimation.png)
+<img src="https://github.com/lxq1000/SwinFace/blob/main/pictures/face%20recognition.png" alt="Image">
 
+- Facial Expression Recognition
+<img src="https://github.com/lxq1000/SwinFace/blob/main/pictures/facial%20expression%20recognition.png" alt="Image" width="500">
+
+- Age Estimation
+<img src="https://github.com/lxq1000/SwinFace/blob/main/pictures/age%20estimation.png" alt="Image" width="400">
+
+- Facial Attribute Estimation  
+<img src="https://github.com/lxq1000/SwinFace/blob/main/pictures/facial%20attribute%20estimation.png" alt="Image">
 
 
 
 ## Train and Inference
 
-The "train.sh" file provides the necessary commands for training the model.
+The `train.sh` file provides the necessary commands for training the model.
 
-The "inference.py" provides an example of using SwinFace for inference.
+The `inference.py` file provides an example of using SwinFace for inference.
+
+
 
 
 
